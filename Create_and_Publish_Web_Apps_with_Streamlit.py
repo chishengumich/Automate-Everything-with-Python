@@ -15,6 +15,7 @@ st.write('''This is our first web App. ''')
 
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
 
 myslider = st.slider('Celsius')
 st.write(myslider, 'in Fahrenheit is', myslider *9/5 +32)
